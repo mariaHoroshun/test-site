@@ -1,0 +1,18 @@
+.card-info-block{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.picture{
+    height: 200px;
+    width: 50%;
+    background-size: contain;
+    background-position: top;
+    position: relative ;
+    background-repeat: no-repeat;
+}
+
+nz-card{
+    margin-top: 20px;
+}

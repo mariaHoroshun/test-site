@@ -1,0 +1,15 @@
+<h1>This is my project. Hello!</h1>
+
+<nz-collapse>
+    <nz-collapse-panel
+      *ngFor="let panel of panels"
+      [nzHeader]="panel.name"
+    >
+      <p>
+       {{panel.text}}
+      </p>
+    </nz-collapse-panel>
+  </nz-collapse>
+
+  
+<app-block-info *ngFor="let i of cards" [cardItem]="i"></app-block-info>

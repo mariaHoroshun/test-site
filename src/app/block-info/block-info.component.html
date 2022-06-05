@@ -1,0 +1,6 @@
+<nz-card *ngIf="cardItem" [nzTitle]="cardItem.name">
+  <div class="card-info-block">
+    <div class="picture" [style.backgroundImage]="cardItem.img"></div>
+    <div>{{cardItem.text}}</div>
+  </div>
+</nz-card>
